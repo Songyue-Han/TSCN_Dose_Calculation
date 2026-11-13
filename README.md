@@ -1,4 +1,4 @@
-# TSCN_Dose_Calculation
+# DoseRAD photon CT-to-dose prediction
 
 Research code for the photon CT submission to DoseRAD2026. The model combines
 2D CNN feature extraction, a depth-wise temporal convolutional network (TCN),
@@ -7,7 +7,7 @@ patient grid and added for the final dose prediction.
 
 This release contains source code only. Obtain DoseRAD data separately;
 checkpoints, patient images, generated BEV data and submission container images
-are not included. This V1 covers the CT-to-dose workflow.
+are not included. This V1 covers the CT-to-dose workflow, not MRI-to-sCT or MVE.
 
 ## Environment
 
